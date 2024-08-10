@@ -55,6 +55,7 @@ WHERE Fertilizer_Usage > Average_Fertilizer_Usage &
 Production_Foodgrains < Average_Production;
 
 ----------- Creating a New Column for Rainfall Categories ---------------
+
 SET SQL_SAFE_UPDATES = 0;
 
 ALTER TABLE FOOD
